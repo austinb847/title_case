@@ -2,7 +2,8 @@ require('pry')
 
 class String
   def title_case
-    self.capitalize
+    split_sentence = self.split(' ')
+    split_sentence
   end
   
 end
